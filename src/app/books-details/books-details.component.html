@@ -1,0 +1,14 @@
+<h2>Detail of {{ book.titre }}</h2>
+<div class="profile">
+  <div class="profile-picture">
+    <p>Insert picture here</p>
+  </div>
+  <div class="profile-info">
+    <div *ngIf="book">
+      <p><strong>Author:</strong> {{ book.auteur }}</p>
+      <p><strong>Publishing date :</strong> {{ book.annee }}</p>
+      <p><strong>Publisher:</strong> {{ book.editeur }}</p>
+      <p><strong>Isbn:</strong> {{ book.isbn }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<h1>List of members</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Firstname</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let member of members">
+      <td><a [routerLink]="'/member/' + member.prenom">{{ member.prenom }}</a></td>
+      <td><a [routerLink]="'/member/' + member.prenom">{{ member.nom }}</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<router-outlet></router-outlet>

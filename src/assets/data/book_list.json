@@ -1,0 +1,25 @@
+{
+    "book": [
+        {
+            "titre": "1984",
+            "auteur": "George Orwell",
+            "annee": 1949,
+            "editeur": "Secker & Warburg",
+            "isbn": "978-0451524935"
+        },
+        {
+            "titre": "Le Seigneur des anneaux",
+            "auteur": "J.R.R. Tolkien",
+            "annee": 1954,
+            "editeur": "Allen & Unwin",
+            "isbn": "978-0618640157"
+        },
+        {
+            "titre": "Le Petit Prince",
+            "auteur": "Antoine de Saint-Exupéry",
+            "annee": 1943,
+            "editeur": "Gallimard",
+            "isbn": "978-2070612758"
+        }
+    ]
+}

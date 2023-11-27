@@ -1,0 +1,49 @@
+{
+    "loan": [
+        {
+            "id": 1,
+            "livre": {
+                "titre": "1984",
+                "auteur": "George Orwell",
+                "isbn": "978-0451524935"
+            },
+            "membre": {
+                "nom": "Dupont",
+                "prenom": "Jean",
+                "email": "jean.dupont@example.com"
+            },
+            "date_emprunt": "2022-02-15",
+            "date_retour": "2022-05-15"
+        },
+        {
+            "id": 2,
+            "livre": {
+                "titre": "Le Petit Prince",
+                "auteur": "Antoine de Saint-Exupéry",
+                "isbn": "978-2070612758"
+            },
+            "membre": {
+                "nom": "Martin",
+                "prenom": "Sophie",
+                "email": "sophie.martin@example.com"
+            },
+            "date_emprunt": "2022-03-05",
+            "date_retour": "2022-06-05"
+        },
+        {
+            "id": 3,
+            "livre": {
+                "titre": "Le Seigneur des anneaux",
+                "auteur": "J.R.R. Tolkien",
+                "isbn": "978-0618640157"
+            },
+            "membre": {
+                "nom": "Garcia",
+                "prenom": "Pedro",
+                "email": "pedro.garcia@example.com"
+            },
+            "date_emprunt": "2022-04-02",
+            "date_retour":"2022-07-02"
+        }
+    ]
+}

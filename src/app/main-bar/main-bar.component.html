@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+	<div class="container-fluid">
+		<a class="navbar-brand" [routerLink]="'/home'">Book'TSE</a>
+		<button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
+
+		<div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<!-- Définition des bouttons dans la nav-bar -->
+				<li class="nav-item active">
+					<a class="nav-link" routerLink="/book" (click)="isMenuCollapsed = true">Books</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="/member" (click)="isMenuCollapsed = true">Members</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="/loan" (click)="isMenuCollapsed = true">Loans-list</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="/contact" (click)="isMenuCollapsed = true">Contact-form</a>
+				</li>       
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+

@@ -1,0 +1,22 @@
+<h1>List of loans</h1>
+
+<table class="table">
+	<thead>
+	  <tr>
+		<th>Book</th>
+		<th>Member</th>
+		<th>Loan date</th>
+		<th>Return date</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <!-- On affiche tous les emprunts contenus dans le json-->
+	  <tr *ngFor="let loan of loans">
+		<td>{{ loan.livre.titre }}</td>
+		<td>{{ loan.membre.prenom}} {{ loan.membre.nom }}</td>
+		<td>{{ loan.date_emprunt }}</td>
+		<td>{{ loan.date_retour }}</td>
+	  </tr>
+	</tbody>
+  </table>
+  

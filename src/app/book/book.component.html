@@ -1,0 +1,19 @@
+<h1>List of books</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- On affiche tous les livres contenus dans le json-->
+    <tr *ngFor="let book of books">
+      <!-- Nous accédons à la page détail d'un livre via le titre du livre, peut importe si l'on clique sur l'auteur ou le titre-->
+      <td><a [routerLink]="'/book/' + book.titre">{{ book.titre }}</a></td>
+      <td><a [routerLink]="'/book/' + book.titre">{{ book.auteur }}</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,14 @@
+<h2>Profile of {{ member.prenom }} {{ member.nom }}</h2>
+  <div class="profile">
+    <div class="profile-picture">
+      <p>Insert picture here</p>
+    </div>
+    <div class="profile-info">
+      <div *ngIf="member">
+        <p><strong>Age:</strong> {{ member.age }}</p>
+        <p><strong>Address:</strong> {{ member.adresse.rue }}, {{ member.adresse.ville }}, {{ member.adresse.code_postal }}, {{ member.adresse.pays }}</p>
+        <p><strong>Email:</strong> {{ member.email }}</p>
+        <p><strong>Phone:</strong> {{ member.telephone }}</p>
+      </div>
+    </div>
+  </div>
